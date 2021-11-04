@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+ {% block body %}
+
+   {% for user in ["AI", "Blockchain", "Wearable"] %}
+
+    <p>{{ user.upper() }}</p>
+
+    {% endfor %}
+
+ <p>My name is Purvi and this is my first project using VScode,  </p>
+ <p> I would love to practice using VScode to sharpen my skills.</p>
+ {% endblock body %}
